@@ -1,0 +1,22 @@
+.errorMessage{
+    width:25%;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    background-color: rgba(238, 74, 74, 0.699);
+    margin: 0 auto;
+    text-align: center;
+    padding: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 6px;
+    color: white;
+    font-style: italic;
+    box-shadow: 0 5px 10px #cccccc;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+}
+

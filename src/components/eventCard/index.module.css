@@ -1,0 +1,55 @@
+.eventCard {
+    width: 27%;
+    height: 500px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    display: flex; 
+    border: 1px solid #696969;
+    border-radius: 10px;
+    margin: 1em;
+    text-align: center;
+    
+}
+.imgContainer{
+    width: 100%;
+    max-height: 50%;
+    overflow: hidden;
+}
+
+.imgContainer > img {
+    width: 100%;
+    /* max-height: 100%; */
+    height: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: block;
+    object-fit: contain;
+ 
+}
+
+.linkContainer{
+    margin-bottom: 1.5em;
+}
+
+.link{
+    width: 8em;
+    height: 2em;
+    padding: 0 0.5em ;
+    margin-top: 1em;
+    font-size: 18px;
+    color: grey;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(210, 234, 227);
+    text-decoration: none;
+}
+
+.link:hover{
+    background-color: rgb(120, 194, 173);
+}
+
+
+
+
+

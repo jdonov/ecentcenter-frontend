@@ -1,0 +1,22 @@
+.btnDel{
+    width: 50%;
+    height: 1em;
+    padding: 0.8em;
+    margin: 1em;
+    font-size: 14px;
+    color: grey;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(255, 208, 193);
+    cursor: pointer;
+}
+
+
+.btnDel:hover{
+    background-color: rgb(255, 173, 146);
+    color:white;
+}
+
+.table{
+    margin: 0 auto;
+}
